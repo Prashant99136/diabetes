@@ -36,5 +36,5 @@ def main():
         except ValueError:
             st.error("Please enter valid numeric values in all fields.")
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
